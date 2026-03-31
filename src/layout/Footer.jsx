@@ -18,8 +18,8 @@ const Footer = () => (
       </div>
       <div>
         <h4 className="text-lg font-semibold text-white">Contact</h4>
-        <p className="mt-2 text-sm">Phone: +91 99999 99999</p>
-        <p className="text-sm">Email: hello@krishacolors.in</p>
+        <p className="mt-2 text-sm">Phone: +91 97153 34907</p>
+        <p className="text-sm">Email: crazykarthi83@gmail.com</p>
         <p className="text-sm">Serving Chennai, Coimbatore, Madurai & across Tamil Nadu.</p>
       </div>
     </div>

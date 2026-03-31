@@ -15,9 +15,9 @@ const Contact = () => (
         <ContactForm />
         <aside className="rounded-2xl bg-brand-sky p-6">
           <h2 className="text-2xl font-bold text-brand-navy">Contact Details</h2>
-          <p className="mt-4 text-gray-700">Phone: +91 99999 99999</p>
-          <p className="text-gray-700">WhatsApp: +91 99999 99999</p>
-          <p className="text-gray-700">Email: hello@krishacolors.in</p>
+          <p className="mt-4 text-gray-700">Phone: +91 97153 34907</p>
+          <p className="text-gray-700">WhatsApp: +91 97153 34907</p>
+          <p className="text-gray-700">Email: crazykarthi83@gmail.com</p>
           <p className="mt-4 text-sm text-gray-600">Business Hours: Mon–Sat, 8:30 AM to 7:00 PM</p>
         </aside>
       </div>

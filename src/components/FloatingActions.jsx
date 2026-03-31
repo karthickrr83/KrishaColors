@@ -1,5 +1,5 @@
-const phone = import.meta.env.VITE_BUSINESS_PHONE || '+919999999999';
-const whatsapp = import.meta.env.VITE_WHATSAPP_NUMBER || '919999999999';
+const phone = import.meta.env.VITE_BUSINESS_PHONE || '+919715334907';
+const whatsapp = import.meta.env.VITE_WHATSAPP_NUMBER || '919715334907';
 
 const FloatingActions = () => {
   return (
