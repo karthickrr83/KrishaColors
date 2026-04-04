@@ -15,7 +15,7 @@ body,
 
 body {
   margin: 0;
-  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-family: 'Inter','poppins','Segoe UI', sans-serif;
   background: linear-gradient(180deg, #f5faff 0%, #ffffff 45%, #fffdf6 100%);
 }
 
