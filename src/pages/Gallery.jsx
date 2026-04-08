@@ -4,12 +4,13 @@ import GalleryGrid from '../components/GalleryGrid';
 const Gallery = () => (
   <main>
     <Seo
-      title="Gallery | Painting Contractor in Tamil Nadu"
-      description="View completed home and commercial painting projects by Krisha Colors across Tamil Nadu."
+      title="Gallery | Painters in Coimbatore"
+      description="See completed wall painting and home painting projects by Krisha Colours in Coimbatore, including interior and exterior transformations."
+      keywords="wall painting Coimbatore, home painting Coimbatore, painters in Coimbatore, interior painting Coimbatore, exterior painting Coimbatore"
     />
     <section className="container-base py-14">
-      <h1 className="section-heading">Our Work Gallery</h1>
-      <p className="section-subheading">From classic finishes to modern textures, each project reflects precision and craftsmanship.</p>
+      <h1 className="section-heading">Our Painting Portfolio</h1>
+      <p className="section-subheading">Explore our latest Coimbatore painting projects for interiors, exteriors and designer walls that deliver durable beauty.</p>
     </section>
     <GalleryGrid />
   </main>

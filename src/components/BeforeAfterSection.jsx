@@ -39,7 +39,8 @@ const BeforeAfterSlider = ({ before, after }) => {
       {/* AFTER */}
       <img
         src={after}
-        alt="After"
+        alt="After painting transformation by Krisha Colours"
+        loading="lazy"
         style={{
           position: 'absolute',
           inset: 0,
@@ -59,7 +60,8 @@ const BeforeAfterSlider = ({ before, after }) => {
       >
         <img
           src={before}
-          alt="Before"
+          alt="Before painting condition for wall painting project"
+          loading="lazy"
           style={{
             width: '100%',
             height: '100%',

@@ -41,6 +41,7 @@ const GalleryGrid = () => {
             <img
               src={image.src}
               alt={image.title}
+              loading="lazy"
               className="h-64 w-full object-cover transition duration-700 ease-out group-hover:scale-110 group-hover:rotate-1"
             />
 
@@ -95,6 +96,7 @@ const GalleryGrid = () => {
             <img
               src={galleryImages[activeIndex].src}
               alt={galleryImages[activeIndex].title}
+              loading="lazy"
               className="w-full max-h-[80vh] object-cover rounded-2xl shadow-2xl animate-fadeIn"
             />
 

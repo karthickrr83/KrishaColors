@@ -23,7 +23,16 @@ export const services = [
 
 export const galleryImages = Array.from({ length: 8 }, (_, i) => ({
   id: i + 1,
-  title: `Project ${i + 1}`,
+  title: [
+    'Coimbatore Living Room Wall Painting',
+    'Tamil Nadu Exterior Painting Transformation',
+    'Coimbatore Bedroom Interior Paint',
+    'Modern Texture Wall Finish in Coimbatore',
+    'Exterior House Painting in Coimbatore',
+    'Commercial Space Painting in Tamil Nadu',
+    'Interior Painting for Family Homes',
+    'Designer Wall Painting in Coimbatore',
+  ][i],
   src: `https://images.unsplash.com/photo-${
     ['1578301978018-3005759f48f7', '1562259929-b4e1fd3aef09', '1505693416388-ac5ce068fe85', '1489515217757-5fd1be406fef', '1505691938895-1758d7feb511', '1538688525198-9b88f6f53126', '1582719188393-bb71ca45dbb9', '1616046229478-9901c5536a45'][i]
   }?auto=format&fit=crop&w=900&q=80`,

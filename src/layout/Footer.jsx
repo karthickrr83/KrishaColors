@@ -1,10 +1,14 @@
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 const Footer = () => (
   <footer className="mt-20 bg-brand-slate py-12 text-gray-200">
     <div className="container-base grid gap-8 md:grid-cols-3">
       <div>
-        <h3 className="text-xl font-semibold text-white">Krisha Colors</h3>
+        <div className="flex items-center gap-3">
+          <img src={logo} alt="Krisha Colors logo" className="h-8 w-auto object-contain" />
+          <h3 className="text-xl font-semibold text-white">Krisha Colors</h3>
+        </div>
         <p className="mt-2 text-sm text-gray-300">Painting Contractor in Tamil Nadu delivering premium interior and exterior finishes.</p>
       </div>
       <div>
