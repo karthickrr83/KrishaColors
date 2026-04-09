@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
+import SafeWhatsAppButton from './SafeWhatsAppButton';
 
-const phone    = import.meta.env.VITE_BUSINESS_PHONE    || '+919715334907';
-const whatsapp = import.meta.env.VITE_WHATSAPP_NUMBER  || '919715334907';
+const phone = import.meta.env.VITE_BUSINESS_PHONE || '+919715334907';
 
 /* Small floating info card that sits on top of the hero image */
 function FloatBadge({ style, children }) {
@@ -147,10 +147,8 @@ const HeroSection = () => {
               📞 Call Now
             </a>
 
-            <a
-              href={`https://wa.me/${whatsapp}`}
-              target="_blank"
-              rel="noreferrer"
+            <SafeWhatsAppButton
+              ariaLabel="Chat with us on WhatsApp"
               style={{
                 background:'#25D366', color:'#fff',
                 padding:'14px 28px', borderRadius:12,
@@ -158,6 +156,8 @@ const HeroSection = () => {
                 display:'inline-flex', alignItems:'center', gap:8,
                 boxShadow:'0 6px 24px rgba(37,211,102,0.32)',
                 transition:'transform 0.18s, box-shadow 0.18s',
+                border:'none',
+                cursor:'pointer',
               }}
               onMouseEnter={e => {
                 e.currentTarget.style.transform = 'translateY(-2px)';
@@ -169,7 +169,7 @@ const HeroSection = () => {
               }}
             >
               💬 WhatsApp
-            </a>
+            </SafeWhatsAppButton>
 
             <a
               href="/contact"
