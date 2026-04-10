@@ -1,6 +1,5 @@
 import Seo from '../components/Seo';
 import ContactForm from '../components/ContactForm';
-import SafeWhatsAppButton from '../components/SafeWhatsAppButton';
 
 const Contact = () => (
   <main>
@@ -26,15 +25,6 @@ const Contact = () => (
         {/* Contact Info */}
         <aside className="rounded-2xl bg-brand-sky p-6">
           <h2 className="text-2xl font-bold text-brand-navy">Contact Us</h2>
-
-          {/* WhatsApp Button (SAFE) */}
-          <div className="mt-6">
-            <SafeWhatsAppButton
-              className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-lg transition"
-            >
-              Chat with us on WhatsApp
-            </SafeWhatsAppButton>
-          </div>
 
           {/* Email */}
           <p className="mt-6 text-gray-700">

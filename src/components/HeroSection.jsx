@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import SafeWhatsAppButton from './SafeWhatsAppButton';
 
 const phone = import.meta.env.VITE_BUSINESS_PHONE || '+919715334907';
 
@@ -146,30 +145,6 @@ const HeroSection = () => {
             >
               📞 Call Now
             </a>
-
-            <SafeWhatsAppButton
-              ariaLabel="Chat with us on WhatsApp"
-              style={{
-                background:'#25D366', color:'#fff',
-                padding:'14px 28px', borderRadius:12,
-                fontSize:15, fontWeight:800, textDecoration:'none',
-                display:'inline-flex', alignItems:'center', gap:8,
-                boxShadow:'0 6px 24px rgba(37,211,102,0.32)',
-                transition:'transform 0.18s, box-shadow 0.18s',
-                border:'none',
-                cursor:'pointer',
-              }}
-              onMouseEnter={e => {
-                e.currentTarget.style.transform = 'translateY(-2px)';
-                e.currentTarget.style.boxShadow = '0 14px 36px rgba(37,211,102,0.42)';
-              }}
-              onMouseLeave={e => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 6px 24px rgba(37,211,102,0.32)';
-              }}
-            >
-              💬 WhatsApp
-            </SafeWhatsAppButton>
 
             <a
               href="/contact"
